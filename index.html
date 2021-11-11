@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <title>invoice bootstrap template</title>
+</head>
+<body>
+
+<!-- Invoice Here -->
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1 " id="invoice">
+                <h2 class="invoice-title text-center fs-4 mb-5">
+                    Thanks for buying from us.
+                </h2>
+               <div class="invoice-header d-flex justify-content-between align-items-baseline">
+                  <div>
+                    <h2> Sakil Anwar</h2>
+                    <p>#invoice 1234</p>
+                    <p>Date:11-Nov-2021</p>
+                  </div>
+                  <div>
+                      <h1><i class="bi bi-book-fill"></i> amarboi</h1>
+                      <p><i class="bi bi-google"></i> www.amarboi@gmail.com</p>
+                      <p><i class="bi bi-facebook"></i> /groups/amarboi</p>
+                  </div>
+               </div>
+               <table class="table">
+                   <tbody>
+                       <tr>
+                        <td class="ps-5">Gitanjoli</td>
+                        <td>160 tk</td>
+                       </tr>
+                        <tr>
+                            <td class="ps-5">By The river Pidra</td>
+                            <td>200 tk</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-5">Paradoxical Sajid</td>
+                            <td>230 tk</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-5">A girl on the train</td>
+                            <td>200 tk</td>
+                        </tr>
+                        <tr>
+                            <td class="ps-5">A girl on the train</td>
+                            <td>200 tk</td>
+                        </tr>
+                   </tbody>
+               </table>
+               <div class="row invoice-footer align-items-center">
+                 <div class="col-md-6">
+                   <div class="status">
+                        <p class="statusInfo">
+                            Paid
+                        </p>
+                   </div>
+                 </div>
+                 <div class="col-md-6">
+                    <div class="total-amount">
+                        <p class="totalAmount">Total Amount: <span>400 </span> tk</p>
+                        <p class="paidAmount">Paid Amount: <span>200 </span> tk</p>
+                        <hr>
+                        <p class="result">Due Amout: <span>200</span> tk</p>
+                    </div>
+                 </div>
+               </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-end mt-3">
+                <button type="button" class="btn-custom" id="exportButton">Export PDF</button>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="main.js"></script>
+    </body>
+    
+    </html>

@@ -1,0 +1,67 @@
+body{
+    background:#f6f6f6;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    margin:70px 0px;
+
+}
+#invoice{
+    background:#fff;
+    padding:100px 60px 200px;
+}
+.invoice-header{
+   padding:50px 0px;
+}
+
+.invoice-header h2 {
+    font-size: 22px;
+}
+.invoice-header p {
+    color:rgba(0, 0, 0, 0.822);
+}
+h1{
+    font-size: 17px;
+}
+
+table td{
+    color:#555;
+    padding:10px 0px;
+}
+/* Payment */
+.invoice-footer{
+    margin-top:100px;
+}
+.invoice-footer .status{
+ text-align:center;
+ font-size: 40px;
+ font-weight: bold;
+}
+.statusInfo{
+    margin-top:20px;
+    border:2px solid tomato;
+    display: inline-block;
+    padding:5px 50px;
+    transform: rotate(-10deg);
+}
+.total-amount{
+    padding-left: 100px;
+}
+.total-amount p{
+    color:#555;
+    font-weight: 300;
+}
+.total-amount p span{
+   color:#000;
+   font-size: 24px;
+   font-weight: bold;
+}
+.btn-custom{
+    margin:30px 160px 0px;
+    background:tomato;
+    color:#fff;
+    border:none;
+    padding:14px 30px;
+    border-radius: 3px;
+    font-size: 18px;
+}
